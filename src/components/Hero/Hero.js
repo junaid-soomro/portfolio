@@ -6,7 +6,18 @@ import { LeftSection } from './HeroStyles';
 
 const Hero = (props) => (
   <div>
-    Hero
+    <Section row nopadding>
+      <LeftSection>
+        <SectionTitle main center>
+          Greetings!<br/>
+          I am Junaid Soomro,
+        </SectionTitle>
+        <SectionText>
+          I love programming for two basic reasons. One is the feeling when small and chunks of pieces make up to something big and meaningful. This also excites and motivates me to move further and learn more. The other reason is programming can just help you solve your everyday problems. In my case I usually code to automate my boiler plate routine. 
+        </SectionText>
+        <Button>Interested in reading my resume?</Button>
+      </LeftSection>
+    </Section>
   </div>
 );
 
