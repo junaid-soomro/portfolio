@@ -24,7 +24,7 @@ const Footer = () => {
     <SocialIconsContainer>
       <CompanyContainer>
         <Slogan>
-          I will not let you down
+        A life that lives without doing anything is the same as a slow death.
         </Slogan>
       </CompanyContainer>
       <SocialContainer>
