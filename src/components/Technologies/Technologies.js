@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiVisualstudio, DiZend } from 'react-icons/di';
+import { DiFirebase, DiJavascript,DiBrackets,DiAws,DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -16,17 +16,17 @@ const Technologies = () =>  (
    </SectionText>
    <List>
      <ListItem>
-       <DiReact size="3rem"/>
+       <DiJavascript size="3rem"/>
          <ListContainer>
            <ListTitle>Front-End</ListTitle>
          <ListParagraph>React JS, Typescript, HTML, CSS, jQuery</ListParagraph>
          </ListContainer>
      </ListItem>
      <ListItem>
-       <DiVisualstudio size="3rem"/>
+       <DiBrackets size="3rem"/>
          <ListContainer>
            <ListTitle>Back-End</ListTitle>
-         <ListParagraph>NodeJS, Django, Java Spring, Swagger API</ListParagraph>
+         <ListParagraph>NodeJS, Django, Java Spring, Java android Swagger API</ListParagraph>
          </ListContainer>
      </ListItem>
      <ListItem>
@@ -34,6 +34,20 @@ const Technologies = () =>  (
          <ListContainer>
            <ListTitle>Database</ListTitle>
          <ListParagraph>MYSQL, Mongo, INFLUX</ListParagraph>
+         </ListContainer>
+     </ListItem>
+     <ListItem>
+       <DiAws size="3rem"/>
+         <ListContainer>
+           <ListTitle>DevOps</ListTitle>
+         <ListParagraph>Kubernetes, Docker, Openstack, Hystax, AWS object storage</ListParagraph>
+         </ListContainer>
+     </ListItem>
+     <ListItem>
+       <DiZend size="3rem"/>
+         <ListContainer>
+           <ListTitle>Other Applications</ListTitle>
+         <ListParagraph>Jira, Azure Devops, AWS Code Commit, Killbill billing, NTOP, Keycloak</ListParagraph>
          </ListContainer>
      </ListItem>
    </List>
