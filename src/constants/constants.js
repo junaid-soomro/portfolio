@@ -2,7 +2,7 @@ export const projects = [
   {
     title: '99App',
     description: "Built a emergency application for a client where user can initiate SOS calls. User's location and voice notes will be shared with the authorities.",
-      image: '/images/1.PNG',
+      image: '/images/androidPlaceHolder.PNG',
       tags: ['PHP API', 'MYSQL', 'Volley', 'JAVA','Firebase'],
     source: 'https://github.com/junaid-soomro/99App',
     id: 0,
@@ -10,7 +10,7 @@ export const projects = [
   {
     title: 'Eve Station',
     description:"An application for salon managers and users who could book appointments, check salon location,view services, provide rating and much more. Salon managers can publish their salons with services and location.",
-    image: '/images/1.PNG',
+    image: '/images/androidPlaceHolder.PNG',
     tags: ['PHP API', 'MYSQL', 'Volley', 'JAVA','Firebase'],
     source: 'https://github.com/junaid-soomro/eveStation',
     id: 1,
@@ -18,7 +18,7 @@ export const projects = [
   {
     title: 'Login Medical',
     description: "Clinic appointments booking application where users could signup and lookup doctors and book appointments. Doctor can signup and post their services as well.",
-      image: '/images/1.PNG',
+      image: '/images/androidPlaceHolder.PNG',
       tags: ['PHP API', 'MYSQL', 'Volley', 'JAVA','Firebase'],
     source: 'https://github.com/junaid-soomro/Tuca',
     id: 2,
@@ -26,7 +26,7 @@ export const projects = [
   {
     title: 'Prod family',
     description: "This was a pure e-commerce application where users could sign up purchase products. Vendors had the option to add products and rate products as well.",
-    image: '/images/1.PNG',
+    image: '/images/androidPlaceHolder.PNG',
     tags: ['PHP API', 'MYSQL', 'Volley', 'JAVA','Firebase'],
     source: 'https://github.com/junaid-soomro/prod-family',
     id: 3,
@@ -40,7 +40,7 @@ export const projects = [
   {
     title: 'Tuca',
     description: "This application was a lot similar with Login Medical. However, here users would be able to select doctors and select clinics as well plus choose their desired dates for booking an appointment.",
-    image: '/images/1.PNG',
+    image: '/images/androidPlaceHolder.PNG',
     tags: ['PHP API', 'MYSQL', 'Volley', 'JAVA','Firebase'],
     source: 'https://github.com/junaid-soomro/Tuca',
     id: 5,
