@@ -1,21 +1,36 @@
-import React from 'react';
+import React from "react";
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import {
+  Section,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import Button from "../../styles/GlobalComponents/Button";
+import { LeftSection } from "./HeroStyles";
 
 const Hero = (props) => (
   <div>
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Greetings!<br/>
-          I am Junaid Soomro,
+          Greetings!
+          <br />I am Junaid Soomro,
         </SectionTitle>
         <SectionText>
-          I love programming for two basic reasons. One is the feeling when small and chunks of pieces make up to something big and meaningful. This also excites and motivates me to move further and learn more. The other reason is programming can just help you solve your everyday problems. In my case I usually code to automate my recurring tasks. 
+          `A linux geek(ubuntu ;){")"} who is a big fan of writing automation
+          scripts and loves witnessing the automation magic. Software
+          development to me is like there is an idea in my head and I have the
+          skills to bring it to life. Code optimization {">"} code refactoring
+          just my opinion. I usually resonate with MERN stack and django
+          framework but it doesn't just stop there. I also like creating
+          makefiles.`
         </SectionText>
-        <Button onClick={()=>{window.open('https://drive.google.com/file/d/1NmxdSqiRFwG0l-6MLVmVrFEaXF748SO0/view?usp=sharing')}}>Interested in reading my resume?</Button>
+        <a
+          href={"/images/CV-Junaid-Soomro.pdf"}
+          download={"CV-Junaid-Soomro.pdf"}
+        >
+          <Button>Interested in reading my resume?</Button>
+        </a>
       </LeftSection>
     </Section>
   </div>
