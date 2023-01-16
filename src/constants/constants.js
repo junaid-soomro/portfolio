@@ -4,7 +4,7 @@ export const projects = [
     description:
       "The app considers euro as the base currency, scrapes latest currency exchange rates from the european bank's website everyday using beautifulsoup4 and stores them in dynamodb. An API is exposed to get exchange rates.",
     image: "/images/python-logo.png",
-    tags: ["Django", "DynamoDB", "Zappa", "AWS: API Gateway, Lambda"],
+    tags: ["Django", "Dynamodb", "Zappa", "AWS lambda", "API gateway"],
     source: "https://github.com/junaid-soomro/exchange_rate_test",
     id: 0,
   },
