@@ -26,7 +26,7 @@ const Hero = (props) => (
           makefiles.`
         </SectionText>
         <a
-          href={"/images/CV-Junaid-Soomro-simplified.pdf"}
+          href={"/images/Junaid-Soomro-CV.pdf"}
           download={"CV-Junaid-Soomro.pdf"}
         >
           <Button>Interested in reading my resume?</Button>
