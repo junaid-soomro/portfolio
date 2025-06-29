@@ -27,7 +27,7 @@ const Hero = (props) => (
         </SectionText>
         <a
           href={"/images/Junaid-Soomro-CV.pdf"}
-          download={"CV-Junaid-Soomro.pdf"}
+          download={"Junaid-Soomro-CV.pdf"}
         >
           <Button>Interested in reading my resume?</Button>
         </a>
