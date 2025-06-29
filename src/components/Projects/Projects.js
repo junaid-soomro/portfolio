@@ -1,37 +1,56 @@
-import React from 'react';
+import React from "react";
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { projects } from '../../constants/constants';
+import {
+  BlogCard,
+  CardInfo,
+  ExternalLinks,
+  GridContainer,
+  HeaderThree,
+  Hr,
+  Tag,
+  TagList,
+  TitleContent,
+  UtilityList,
+  Img,
+} from "./ProjectsStyles";
+import {
+  Section,
+  SectionDivider,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import { projects } from "../../constants/constants";
 
 const Projects = () => (
   <div>
     <Section id="projects">
-      <SectionDivider/>
+      <SectionDivider />
       <SectionTitle main>Projects</SectionTitle>
       <GridContainer>
-        {projects.map(({id,image,title,description,tags,source,visit})=>(
-          <BlogCard key={id}>
-            <Img src={image}></Img>
-            <TitleContent>
-              <HeaderThree title>{title}</HeaderThree>
-              <Hr/>
+        {projects.map(
+          ({ id, image, title, description, tags, source, visit }) => (
+            <BlogCard key={id}>
+              <Img src={image}></Img>
+              <TitleContent>
+                <HeaderThree title>{title}</HeaderThree>
+                <Hr />
               </TitleContent>
               <CardInfo>{description}</CardInfo>
-              <br/>
+              <br />
               <div>
                 <TitleContent>Stack</TitleContent>
                 <TagList>
-                  {tags.map((tag,i)=>(
+                  {tags.map((tag, i) => (
                     <Tag key={i}>{tag}</Tag>
                   ))}
                 </TagList>
               </div>
-           <UtilityList>{
-           source ? <ExternalLinks href={source}>Github</ExternalLinks> : null
-            }</UtilityList>
-          </BlogCard>
-        ))}
+              <UtilityList>
+                {source && <ExternalLinks href={source}>Github</ExternalLinks>}
+                {visit && <ExternalLinks href={visit}>Preview</ExternalLinks>}
+              </UtilityList>
+            </BlogCard>
+          )
+        )}
       </GridContainer>
     </Section>
   </div>

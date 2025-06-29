@@ -9,21 +9,21 @@ export const projects = [
     id: 0,
   },
   {
-    title: "Eve Station",
+    title: "Crypto app",
     description:
-      "An application for salon managers and users who could book appointments, check salon location,view services, provide rating and much more. Salon managers can publish their salons with services and location.",
-    image: "/images/androidPlaceHolder.PNG",
-    tags: ["PHP API", "MYSQL", "Volley", "JAVA", "Firebase"],
-    source: "https://github.com/junaid-soomro/eveStation",
+      "A frontend app built on Nextjs. Pulls crupto currencies from public APIs.",
+    image: "/images/crypto-app.png",
+    tags: ["Reactjs", "Nextjs", "API"],
+    source: "https://github.com/junaid-soomro/crypto-app",
+    visit: "https://crypto-app-86ecf.web.app",
     id: 1,
   },
   {
-    title: "Login Medical",
-    description:
-      "Clinic appointments booking application where users could signup and lookup doctors and book appointments. Doctor can signup and post their services as well.",
-    image: "/images/androidPlaceHolder.PNG",
-    tags: ["PHP API", "MYSQL", "Volley", "JAVA", "Firebase"],
-    source: "https://github.com/junaid-soomro/Tuca",
+    title: "Amazon practice clone",
+    description: "Practice creating amazon clone app.",
+    image: "/images/amazon-clone.png",
+    tags: ["Reactjs", "Nextjs", "API"],
+    visit: "https://clone-3058b.web.app/",
     id: 2,
   },
   {
@@ -33,6 +33,7 @@ export const projects = [
     image: "/images/androidPlaceHolder.PNG",
     tags: ["PHP API", "MYSQL", "Volley", "JAVA", "Firebase"],
     source: "https://github.com/junaid-soomro/prod-family",
+    visit: "null",
     id: 3,
   },
   {
@@ -41,6 +42,7 @@ export const projects = [
       "A wearable eye attachment prototype inspired by google glasses. The equipment would scan and detect products and faces and display details on LCD screen like name for faces and prices and name for products.",
     image: "/images/fyp.png",
     tags: ["PHP API", "MYSQL", "Volley", "JAVA", "Firebase"],
+    visit: "null",
     id: 4,
   },
   {
@@ -50,6 +52,7 @@ export const projects = [
     image: "/images/androidPlaceHolder.PNG",
     tags: ["PHP API", "MYSQL", "Volley", "JAVA", "Firebase"],
     source: "https://github.com/junaid-soomro/Tuca",
+    visit: "null",
     id: 5,
   },
   {
@@ -58,6 +61,7 @@ export const projects = [
       "A cloud services portal backed by openstack, VMware, RedHat, Oracle. All in one cloud portal where users will be able to orchestrate cloud services like instances, volumes, load balancers and much more. The portal also could generate billing reports and usage reports.",
     image: "/images/DCM.jpg",
     tags: ["ReactJS", "Django", "NodeJS", "JAVA", "MongoDB"],
+    visit: "null",
     id: 6,
   },
   {
@@ -66,6 +70,7 @@ export const projects = [
       "A google chrome extension that helps users navigate through web applications. Identity and Access Management has been handled inside the application. Users can create tutorials on navigating applications like capturing clicks and showing information and images. The extension will then help end users to navigate throught the app by giving hints on the screen. The extension is also being used by biggest enterprises like BMW.",
     image: "/images/appnavi.PNG",
     tags: ["jQuery", ".Net", "Javascript", "Vue JS", "DynamoDB"],
+    visit: "null",
     id: 7,
   },
 ];
