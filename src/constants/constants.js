@@ -86,5 +86,6 @@ export const TimeLineData = [
     text: "Senior software engineer at iVolve Technologies.",
   },
   { year: `2021`, text: "Senior software engineer at Digital Dividend." },
-  { year: `2022`, text: "Backend engineer at Cognni." },
+  { year: `2022`, text: "Nodejs at Cognni." },
+  { year: `2024`, text: "Python engineer at Bebit." },
 ];
